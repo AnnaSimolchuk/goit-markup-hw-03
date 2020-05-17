@@ -19,18 +19,40 @@
 /* клиенты #E5E5E5 */
 
 /* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 46px;
+
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 /* Section Benefits*/
 .section-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-title-padding {
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
+
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -39,6 +61,9 @@
 }
 
 .benefits .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -47,6 +72,8 @@
 }
 
 .text {
+  margin-bottom: 0;
+
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.7;
@@ -67,6 +94,9 @@
   background-color: var(--secondary-background-color);
 }
 .team-list .name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -75,6 +105,8 @@
 }
 
 .team-list .role {
+  margin-bottom: 16px;
+
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.2;
@@ -84,6 +116,11 @@
 /* Button */
 
 .button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 200px;
+
   background-color: var(--accent);
   color: var(--white-text-color);
   font-family: Roboto, sans-serif;
