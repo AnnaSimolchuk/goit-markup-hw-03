@@ -120,6 +120,10 @@ a {
   display: flex;
 }
 
+.item {
+  display: flex;
+}
+
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accent);
