@@ -36,7 +36,6 @@
   text-transform: uppercase;
 }
 
-/* Section Benefits*/
 .section-title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -60,6 +59,12 @@
   text-align: center;
 }
 
+/* Section Benefits*/
+
+.benefits {
+  display: flex;
+}
+
 .benefits .title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -71,7 +76,11 @@
   text-transform: uppercase;
 }
 
+.benefits .list:not(:last-child) {
+  margin-right: 30px;
+}
 .text {
+  margin-top: 0;
   margin-bottom: 0;
 
   color: var(--secondary-text-color);
@@ -80,6 +89,14 @@
 }
 
 /* Section Work */
+.work-list {
+  display: flex;
+}
+
+.work-list .list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .work-list .title {
   color: var(--white-text-color);
   font-weight: 700;
@@ -93,6 +110,14 @@
 .team {
   background-color: var(--secondary-background-color);
 }
+.team-list {
+  display: flex;
+}
+
+.team-list .list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-list .name {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -111,6 +136,31 @@
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+}
+
+.logo-list {
+  display: flex;
+  width: 207px;
+}
+
+.team-list .list-logo:not(:last-child) {
+  margin: 0px 10px 24px;
+}
+
+/* Clients */
+.clients-list {
+  display: flex;
+}
+
+.item {
+  display: inline-block;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 175px;
+}
+
+.clients-list .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Button */
