@@ -153,10 +153,11 @@
 }
 
 .item {
-  display: inline-block;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+  display: flex;
   width: 175px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .clients-list .item:not(:last-child) {
