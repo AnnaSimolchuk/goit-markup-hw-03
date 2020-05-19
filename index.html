@@ -53,12 +53,7 @@
             </li>
 
             <li class="item">
-              <img
-                src="./images/phone.svg"
-                alt="смартфон"
-                class="link"
-                class="nav-image"
-              />
+              <img src="./images/phone.svg" alt="смартфон" class="nav-image" />
               <a href="callto:+38 096 111 11 11" class="link"
                 >+38 096 111 11 11</a
               >
@@ -82,9 +77,14 @@
         <div class="container">
           <h2 class="section-title">Преимущества</h2>
           <ul class="benefits">
-            <li class="list">
-              <a href=""></a>
-              <img src="./images/tarelka.svg" alt="Спутниковая тарелка" />
+            <li class="bnft-item">
+              <div class="item-bnft">
+                <img
+                  class="benefit"
+                  src="./images/tarelka.svg"
+                  alt="Спутниковая тарелка"
+                />
+              </div>
               <h3 class="title">Внимание к деталям</h3>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
@@ -92,9 +92,10 @@
               </p>
             </li>
 
-            <li class="list">
-              <a href=""></a>
-              <img src="./images/clock1.svg" alt="Часы" />
+            <li class="bnft-item">
+              <div class="item-bnft">
+                <img class="benefit" src="./images/clock1.svg" alt="Часы" />
+              </div>
               <h3 class="title">Пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
@@ -102,9 +103,14 @@
               </p>
             </li>
 
-            <li class="list">
-              <a href=""></a>
-              <img src="./images/diagram1.svg" alt="Диаграмма" />
+            <li class="bnft-item">
+              <div class="item-bnft">
+                <img
+                  class="benefit"
+                  src="./images/diagram1.svg"
+                  alt="Диаграмма"
+                />
+              </div>
               <h3 class="title">Планирование</h3>
               <p class="text">
                 Равным образом консультация с широким активом в значительной
@@ -112,9 +118,14 @@
               </p>
             </li>
 
-            <li class="list">
-              <a href=""></a>
-              <img src="./images/astronaut1.svg" alt="Астронавт" />
+            <li class="bnft-item">
+              <div class="item-bnft">
+                <img
+                  class="benefit"
+                  src="./images/astronaut1.svg"
+                  alt="Астронавт"
+                />
+              </div>
               <h3 class="title">Современные технологии</h3>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -308,85 +319,99 @@
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="clients-list">
             <li class="client-img">
-              <a href=""></a>
-              <img src="./images/logo1.svg" alt="Имя компании" />
+              <a href=""><img src="./images/logo1.svg" alt="Имя компании" /></a>
             </li>
 
             <li class="client-img">
-              <a href=""></a>
-              <img src="./images/logo2.svg" alt="Имя компании" />
+              <a href=""><img src="./images/logo2.svg" alt="Имя компании" /></a>
             </li>
 
             <li class="client-img">
-              <a href=""></a>
-              <img src="./images/logo3.svg" alt="Имя компании" />
+              <a href=""><img src="./images/logo3.svg" alt="Имя компании" /></a>
             </li>
 
             <li class="client-img">
-              <a href=""></a>
-              <img src="./images/logo4.svg" alt="Имя компании" />
+              <a href=""><img src="./images/logo4.svg" alt="Имя компании" /></a>
             </li>
 
             <li class="client-img">
-              <a href=""></a>
-              <img src="./images/logo5.svg" alt="Имя компании" />
+              <a href=""><img src="./images/logo5.svg" alt="Имя компании" /></a>
             </li>
 
             <li class="client-img">
-              <a href=""></a>
-              <img src="./images/logo6.svg" alt="Имя компании" />
+              <a href=""><img src="./images/logo6.svg" alt="Имя компании" /></a>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div>
-        <a href="./index.html" class="footer-logo">
-          <span class="footer-logo">Web</span>
-          <span class="footer-logo-two">Studio</span></a
-        >
-        <address class="info">
-          <ul class="list">
-            <li class="address">
-              <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+    <footer class="page-footer">
+      <div class="main-footer">
+        <div class="info">
+          <a href="./index.html" class="footer-logo">
+            <span class="footer-logo">Web</span>
+            <span class="footer-logo-two">Studio</span></a
+          >
+          <address>
+            <ul class="info-list">
+              <li class="address">
+                <a class="map" href="">г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+            </ul>
+            <ul class="contact-list">
+              <li class="contact"><a href="">info@example.com</a></li>
+              <li class="contact"><a href="">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="secondary-footer">
+          <p class="footer-text"><b>Присоединяйтесь</b></p>
+          <ul class="logos-list">
+            <li class="logo-img">
+              <a href="" aria-label="link to Instagram"></a>
+              <img
+                class="logos"
+                src="./images/insta1.svg"
+                alt="логотип Instagram"
+              />
             </li>
-            <li class="contact"><a href="">info@example.com</a></li>
-            <li class="contact"><a href="">+38 099 111 11 11</a></li>
+
+            <li class="logo-img">
+              <a href="" aria-label="link to Twitter"></a>
+              <img
+                class="logos"
+                src="./images/twitter1.svg"
+                alt="логотип Twitter"
+              />
+            </li>
+
+            <li class="logo-img">
+              <a href="" aria-label="link to Facebook"></a>
+              <img
+                class="logos"
+                src="./images/facebook1.svg"
+                alt="логотип Facebook"
+              />
+            </li>
+
+            <li class="logo-img">
+              <a href="" aria-label="link to LinkedIn"></a>
+              <img
+                class="logos"
+                src="./images/Linkedin1.svg"
+                alt="логотип LinkedIn"
+              />
+            </li>
           </ul>
-        </address>
-      </div>
+        </div>
 
-      <div>
-        <p class="footer-text"><b>Присоединяйтесь</b></p>
-        <ul class="list">
-          <li>
-            <a href="" aria-label="link to Instagram"></a>
-            <img src="./images/insta1.svg" alt="логотип Instagram" />
-          </li>
-
-          <li>
-            <a href="" aria-label="link to Twitter"></a>
-            <img src="./images/twitter1.svg" alt="логотип Twitter" />
-          </li>
-
-          <li>
-            <a href="" aria-label="link to Facebook"></a>
-            <img src="./images/facebook1.svg" alt="логотип Facebook" />
-          </li>
-
-          <li>
-            <a href="" aria-label="link to LinkedIn"></a>
-            <img src="./images/Linkedin1.svg" alt="логотип LinkedIn" />
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <p class="footer-text"><b>Подпишитесь на рассылку</b></p>
-        <p>E-mail</p>
-        <a href="" class="button">Подписаться</a>
+        <div>
+          <p class="footer-text"><b>Подпишитесь на рассылку</b></p>
+          <p>E-mail</p>
+          <a href="" class="button">Подписаться</a>
+        </div>
       </div>
       <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
