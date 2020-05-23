@@ -113,6 +113,7 @@
 /* Section Work */
 .work-list {
   display: flex;
+  background-color: goldenrod;
 }
 
 .work-list .list:not(:last-child) {
