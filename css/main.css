@@ -25,7 +25,9 @@ body {
 .clients-list,
 .info-list,
 .contact-list,
-.logos-list {
+.logos-list,
+.portfolio-list,
+.works-list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -41,7 +43,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* Page Header */
@@ -229,6 +231,10 @@ footer {
   text-transform: uppercase;
 }
 .copyright {
+  padding-top: 18px;
+  padding-bottom: 21px;
+  margin: 0;
+
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
   line-height: 2;
